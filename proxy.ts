@@ -10,7 +10,7 @@ const protectedPaths = ["/dashboard", "/add-menu", "/edit-menu", "/menu-manageme
 // Create the next-intl middleware
 const intlMiddleware = createMiddleware(routing)
 
-export default async function middleware(request: NextRequest) {
+export default async function proxy(request: NextRequest) {
   // First, handle internationalization
   const response = await intlMiddleware(request)
 

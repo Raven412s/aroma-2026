@@ -1,4 +1,5 @@
 "use client"
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useEffect, useState } from "react";
 import { useForm, useFieldArray, SubmitHandler, Control, useFormContext, FormProvider } from "react-hook-form";
 import type { SettingsForm } from "@/types/SettingsForm";
@@ -46,6 +47,7 @@ function LocationFields({ nestIndex, control, removeLocation }: {
     const { register, watch, setValue } = useFormContext<SettingsForm>();
     const { fields: addressFields, append: appendAddress, remove: removeAddress } = useFieldArray({
         control,
+        // nested field-array name - typed as any for react-hook-form limitations
         name: `locations.${nestIndex}.address` as any,
     });
     const { fields: stepFields, append: appendStep, remove: removeStep } = useFieldArray({
@@ -79,7 +81,7 @@ function LocationFields({ nestIndex, control, removeLocation }: {
     const emails = watch(`locations.${nestIndex}.emails`);
 
     // Helper to clear or remove field
-    function handleRemoveOrClear(removeFn: (idx: number) => void, arr: any[], idx: number, clearFn: (idx: number) => void) {
+    function handleRemoveOrClear(removeFn: (idx: number) => void, arr: unknown[], idx: number, clearFn: (idx: number) => void) {
         if (arr.length === 1) {
             clearFn(idx);
         } else {
@@ -283,7 +285,7 @@ export default function SettingsForm({ initialValues }: { initialValues?: Settin
             });
             if (!res.ok) throw new Error("Failed to save settings");
             setSuccess(true);
-        } catch (e) {
+        } catch {
             setError("Failed to save settings");
         }
     };

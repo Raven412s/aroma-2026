@@ -4,8 +4,16 @@ import { Car, Clock, Coffee, Mail, MapPin, Phone, Utensils } from 'lucide-react'
 import Link from 'next/link';
 import { Map } from './_components/map';
 
+type Location = {
+    address: string[];
+    gettingHere?: { steps?: string[]; mapEmbedSrc?: string };
+    phoneNumbers?: string[];
+    emails?: string[];
+    openingHours?: string;
+};
+
 export default function FindUsPage() {
-    const [locations, setLocations] = useState<any[] | null>(null);
+    const [locations, setLocations] = useState<Location[] | null>(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -61,8 +69,8 @@ export default function FindUsPage() {
                                                     <MapPin className="text-amber-600 mt-1 flex-shrink-0" size={18} />
                                                     <div>
                                                         <h3 className="font-semibold text-gray-800 mb-1 text-sm sm:text-base">Address</h3>
-                                                        {location.address.map((addLine: string) => (
-                                                            <p className="text-gray-600 text-xs sm:text-sm md:text-base leading-relaxed">
+                                                        {location.address.map((addLine: string, idx: number) => (
+                                                            <p key={idx} className="text-gray-600 text-xs sm:text-sm md:text-base leading-relaxed">
                                                                 {addLine}
                                                             </p>
                                                         ))}
@@ -73,8 +81,8 @@ export default function FindUsPage() {
                                                     <Phone className="text-orange-600 mt-1 flex-shrink-0" size={18} />
                                                     <div>
                                                         <h3 className="font-semibold text-gray-800 mb-1 text-sm sm:text-base">Phone</h3>
-                                                        {location.phoneNumbers.map((phNum: string) => (
-                                                            <p className="text-gray-600 text-xs sm:text-sm md:text-base">{phNum}</p>
+                                                        {location.phoneNumbers?.map((phNum: string, idx: number) => (
+                                                            <p key={idx} className="text-gray-600 text-xs sm:text-sm md:text-base">{phNum}</p>
                                                         ))}
                                                     </div>
                                                 </div>
@@ -83,8 +91,8 @@ export default function FindUsPage() {
                                                     <Mail className="text-red-600 mt-1 flex-shrink-0" size={18} />
                                                     <div>
                                                         <h3 className="font-semibold text-gray-800 mb-1 text-sm sm:text-base">Email</h3>
-                                                        {location.emails.map((email: string) => (
-                                                            <p className="text-gray-600 text-xs sm:text-sm md:text-base">{email}</p>
+                                                        {location.emails?.map((email: string, idx: number) => (
+                                                            <p key={idx} className="text-gray-600 text-xs sm:text-sm md:text-base">{email}</p>
                                                         ))}
                                                     </div>
                                                 </div>
@@ -148,7 +156,7 @@ export default function FindUsPage() {
 
                                             {/* Map Placeholder */}
                                             <div className="h-48 sm:h-64 md:h-80 lg:h-[540px] bg-gray-100 flex items-center justify-center border-4 border-dashed border-gray-300">
-                                                <Map mapSrc={location.gettingHere.mapEmbedSrc} />
+                                                <Map mapSrc={location.gettingHere?.mapEmbedSrc || ""} />
                                             </div>
 
                                             <div className="p-3 sm:p-4 md:p-6 bg-gray-50">
