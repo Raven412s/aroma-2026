@@ -1,0 +1,216 @@
+{
+    "HomePage": {
+        "HeroSection": {
+            "welcome": "Добро пожаловать в",
+            "aroma": "AROMA",
+            "indArab": "ИНДИЙСКИЙ И АРАБСКИЙ",
+            "restaurant": "РЕСТОРАН"
+        },
+        "OurStory": {
+            "discover": "Откройте",
+            "ourStory": "НАША ИСТОРИЯ",
+            "para1": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.",
+            "learnMore": "Узнать больше"
+        },
+        "LocationSection": {
+            "visitOur": "Посетите наш",
+            "restaurant": "РЕСТОРАН",
+            "para1": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.",
+            "getLocations": "Найти нас"
+        },
+        "TestimonialSection": {
+            "customer": "Отзывы",
+            "testimonials": "КЛИЕНТОВ"
+        }
+    },
+    "MenuPage": {
+        "checkOut": "Ознакомьтесь с",
+        "ourMenus": "Нашими Меню"
+    },
+    "MenuSection": {
+        "discover": "Откройте",
+        "menus": "МЕНЮ",
+        "para1": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, suscipit vitae!",
+        "para2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate maiores sit doloribus.",
+        "loadingMenu": "Загрузка меню",
+        "retry": "Попробовать снова"
+    },
+    "Navbar": {
+        "home": "Главная",
+        "menus": "Меню",
+        "about": "О нас",
+        "findUs": "Найти нас",
+        "orderNow": "Заказать сейчас",
+        "reservation": "Бронирование"
+    },
+    "Footer": {
+        "hours": "Часы работы",
+        "location": "Расположение",
+        "quickLinks": "Быстрые ссылки",
+        "workingHours": {
+            "weekdays": "Понедельник - Четверг: 11:00 - 22:00",
+            "weekend": "Пятница - Суббота: 11:00 - 23:00",
+            "sunday": "Воскресенье: 11:00 - 21:00"
+        },
+        "address": "Площадь Свободы, 10 улица Шалвы Дадиани, Тбилиси, Грузия",
+        "links": {
+            "menu": "Меню",
+            "reservations": "Бронирование",
+            "privateEvents": "Частные мероприятия",
+            "orderNow": "Заказать сейчас",
+            "careers": "Карьера"
+        },
+        "tagline": "Где кулинарное искусство встречается с вневременной элегантностью.",
+        "copyright": "© {year} Epicurean. Все права защищены.",
+        "legal": {
+            "privacy": "Политика конфиденциальности",
+            "terms": "Условия использования",
+            "accessibility": "Доступность"
+        }
+    },
+    "AboutPage": {
+        "hero": {
+            "discover": "Откройте",
+            "aboutUs": "О НАС"
+        },
+        "testimonial": {
+            "tagline": "Неповторимый опыт ресторанной кухни",
+            "description": "Один из самых впечатляющих ресторанов, открывшихся в Сент-Килде за последние годы – у этих ребят многолетний опыт, и это видно во всем, от декора до подачи блюд – идеально!",
+            "author": "Дженнифер Картер"
+        }
+    },
+    "MenuManagement": {
+        "menuManagement": "Управление меню",
+        "addNewItem": "Добавить новый элемент",
+        "name": "Название",
+        "section": "Раздел",
+        "price": "Цена",
+        "actions": "Действия",
+        "deleteConfirmation": "Подтверждение удаления",
+        "deleteWarning": "Вы уверены, что хотите удалить этот элемент меню? Это действие нельзя отменить.",
+        "cancel": "Отмена",
+        "delete": "Удалить",
+        "editMenuItem": "Редактировать элемент меню",
+        "description": "Описание",
+        "imageUrl": "URL изображения",
+        "save": "Сохранить",
+        "saving": "Сохранение...",
+        "itemNotFound": "Элемент меню не найден",
+        "fetchError": "Ошибка при получении элемента меню",
+        "updateSuccess": "Элемент меню успешно обновлен",
+        "updateError": "Не удалось обновить элемент меню",
+        "rowsPerPage": "Строк на странице",
+        "page": "Страница",
+        "of": "из",
+        "deleteSelected": "Удалить выбранные",
+        "bulkDeleteConfirmation": "Удаление выбранных элементов",
+        "bulkDeleteWarning": "Вы уверены, что хотите удалить {count} элементов? Это действие нельзя отменить."
+    },
+    "AdminDashboard": {
+        "dashboard": "Панель управления",
+        "menuManagement": "Управление меню",
+        "menuManagementDesc": "Добавление, редактирование или удаление блюд и категорий",
+        "reservations": "Бронирования",
+        "reservationsDesc": "Просмотр и управление бронированиями столиков",
+        "userManagement": "Управление пользователями",
+        "userManagementDesc": "Управление учетными записями и правами пользователей",
+        "testimonials": "Отзывы",
+        "testimonialsDesc": "Добавление, редактирование и управление отзывами клиентов",
+        "settings": "Настройки",
+        "settingsDesc": "Настройка параметров и предпочтений ресторана",
+        "access": "Доступ",
+        "quickStats": "Быстрая статистика",
+        "totalMenuItems": "Всего элементов меню",
+        "activeReservations": "Активные бронирования",
+        "totalUsers": "Всего пользователей",
+        "nextHour": "Следующий час",
+        "today": "Сегодня",
+        "tomorrow": "Завтра",
+        "thisMonth": "Этот месяц",
+        "nextMonth": "Следующий месяц",
+        "totalReservations": "Всего бронирований",
+        "confirmedReservations": "Подтвержденные бронирования",
+        "upcomingReservations": "Предстоящие бронирования",
+        "guests": "гостей",
+        "pending": "В ожидании",
+        "confirmed": "Подтверждено",
+        "cancelled": "Отменено"
+    },
+    "ReservationsManagement": {
+        "title": "Управление бронированиями",
+        "searchPlaceholder": "Поиск бронирований...",
+        "filterByStatus": "Фильтр по статусу",
+        "allStatuses": "Все статусы",
+        "pending": "В ожидании",
+        "confirmed": "Подтверждено",
+        "cancelled": "Отменено",
+        "loading": "Загрузка бронирований...",
+        "noReservations": "Бронирования не найдены",
+        "guests": "гостей",
+        "viewDetails": "Просмотр деталей",
+        "previous": "Предыдущая",
+        "next": "Следующая",
+        "page": "Страница",
+        "of": "из",
+        "reservationDetails": "Детали бронирования",
+        "guestInformation": "Информация о госте",
+        "email": "Электронная почта",
+        "phone": "Телефон",
+        "occasion": "Повод",
+        "tablePreference": "Предпочтения по столику",
+        "additionalInformation": "Дополнительная информация",
+        "dietaryRestrictions": "Диетические ограничения",
+        "specialRequests": "Особые пожелания",
+        "createdAt": "Дата создания",
+        "status": "Статус",
+        "date": "Дата",
+        "time": "Время",
+        "confirm": "Подтвердить",
+        "cancel": "Отменить"
+    },
+    "TestimonialsManagement": {
+        "title": "Управление отзывами",
+        "addTestimonial": "Добавить отзыв",
+        "editTestimonial": "Редактировать отзыв",
+        "searchPlaceholder": "Поиск отзывов...",
+        "loading": "Загрузка...",
+        "noTestimonials": "Отзывы не найдены",
+        "customerName": "Имя клиента",
+        "customerNamePlaceholder": "Введите имя клиента",
+        "customerTitle": "Должность клиента",
+        "customerTitlePlaceholder": "Введите должность клиента",
+        "content": "Содержание",
+        "contentPlaceholder": "Введите содержание отзыва",
+        "status": "Статус",
+        "actions": "Действия",
+        "edit": "Редактировать",
+        "delete": "Удалить",
+        "previous": "Назад",
+        "next": "Вперед",
+        "page": "Страница",
+        "of": "из",
+        "confirmDelete": "Вы уверены, что хотите удалить этот отзыв?",
+        "testimonialDeleted": "Отзыв успешно удален",
+        "deleteError": "Не удалось удалить отзыв",
+        "statusUpdated": "Статус успешно обновлен",
+        "updateError": "Не удалось обновить отзыв",
+        "fetchError": "Не удалось загрузить отзывы",
+        "deleteConfirmation": "Удалить отзыв",
+        "deleteWarning": "Вы уверены, что хотите удалить этот отзыв? Это действие нельзя отменить.",
+        "cancel": "Отмена",
+        "bulkDeleteConfirmation": "Удалить выбранные отзывы",
+        "bulkDeleteWarning": "Вы уверены, что хотите удалить {count} выбранных отзывов? Это действие нельзя отменить.",
+        "save": "Сохранить изменения"
+    },
+    "Dashboard": {
+        "title": "Панель управления",
+        "reservations": "Бронирования",
+        "menu": "Меню",
+        "testimonials": "Отзывы",
+        "manageReservations": "Просмотр и управление всеми бронированиями ресторана",
+        "manageMenu": "Обновление блюд, категорий и цен",
+        "manageTestimonials": "Управление отзывами и оценками клиентов",
+        "testimonialsDesc": "Добавление, редактирование и управление отзывами клиентов",
+        "access": "Доступ"
+    }
+}

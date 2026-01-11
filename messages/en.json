@@ -1,0 +1,223 @@
+{
+    "HomePage": {
+        "HeroSection": {
+            "welcome": "Welcome to",
+            "aroma": "AROMA",
+            "indArab": "INDIAN & ARABIC",
+            "restaurant": "RESTAURANT"
+        },
+        "OurStory": {
+            "discover": "Discover",
+            "ourStory": "OUR STORY",
+            "para1": "  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.",
+            "learnMore": "Learn More"
+        },
+        "LocationSection": {
+            "visitOur": "Visit Our",
+            "restaurant": "RESTAURANT",
+            "para1": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,  rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.",
+            "getLocations": "Get Locations"
+        },
+        "TestimonialSection": {
+            "customer": "Customer",
+            "testimonials": "TESTIMONIALS"
+        }
+    },
+    "MenuPage": {
+        "checkOut": "Check out",
+        "ourMenus": "Our Menus"
+    },
+    "MenuSection": {
+        "discover": "Discover",
+        "menus": "MENUS",
+        "para1": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, suscipit vitae!",
+        "para2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate maiores sit doloribus.",
+        "loadingMenu": "Loading Menu",
+        "retry": "Retry"
+    },
+    "Navbar": {
+        "home": "Home",
+        "menus": "Menus",
+        "about": "About Us",
+        "findUs": "Find Us",
+        "orderNow": "Order Now",
+        "reservation": "Reservation"
+    },
+    "Footer": {
+        "hours": "Hours",
+        "location": "Location",
+        "quickLinks": "Quick Links",
+        "workingHours": {
+            "weekdays": "Monday - Thursday: 11am - 10pm",
+            "weekend": "Friday - Saturday: 11am - 11pm",
+            "sunday": "Sunday: 11am - 9pm"
+        },
+        "address": "Liberty Square, 10 Shalva Dadiani St, Tbilisi, Georgia",
+        "links": {
+            "menu": "Menu",
+            "reservations": "Reservations",
+            "privateEvents": "Private Events",
+            "orderNow": "Order Now",
+            "careers": "Careers"
+        },
+        "tagline": "Where culinary artistry meets timeless elegance.",
+        "copyright": "© {year} Aroma. All rights reserved.",
+        "legal": {
+            "privacy": "Privacy Policy",
+            "terms": "Terms of Service",
+            "accessibility": "Accessibility"
+        }
+    },
+    "AboutPage": {
+        "hero": {
+            "discover": "Discover",
+            "aboutUs": "ABOUT US"
+        },
+        "testimonial": {
+            "tagline": "Ultimate dining experience like no other",
+            "description": "One of the most exciting eateries to open in St Kilda. in years – These guys have years of experience and it shows, from the decor to the presentation – perfect!",
+            "author": "Jennifer Carter"
+        }
+    },
+    "MenuManagement": {
+        "menuManagement": "Menu Management",
+        "addNewItem": "Add New Item",
+        "name": "Name",
+        "section": "Section",
+        "price": "Price",
+        "actions": "Actions",
+        "deleteConfirmation": "Delete Confirmation",
+        "deleteWarning": "Are you sure you want to delete this menu item? This action cannot be undone.",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "editMenuItem": "Edit Menu Item",
+        "description": "Description",
+        "imageUrl": "Image URL",
+        "save": "Save",
+        "saving": "Saving...",
+        "itemNotFound": "Menu item not found",
+        "fetchError": "Error fetching menu item",
+        "updateSuccess": "Menu item updated successfully",
+        "updateError": "Failed to update menu item",
+        "rowsPerPage": "Rows per page",
+        "page": "Page",
+        "of": "of",
+        "deleteSelected": "Delete Selected",
+        "bulkDeleteConfirmation": "Delete Selected Items",
+        "bulkDeleteWarning": "Are you sure you want to delete {count} items? This action cannot be undone."
+    },
+    "AdminDashboard": {
+        "dashboard": "Dashboard",
+        "menuManagement": "Menu Management",
+        "menuManagementDesc": "Add, edit, or remove menu items and categories",
+        "reservations": "Reservations",
+        "reservationsDesc": "View and manage table reservations",
+        "userManagement": "User Management",
+        "userManagementDesc": "Manage user accounts and permissions",
+        "testimonials": "Testimonials",
+        "testimonialsDesc": "Add, edit, and manage customer testimonials",
+        "settings": "Settings",
+        "settingsDesc": "Configure restaurant settings and preferences",
+        "access": "Access",
+        "quickStats": "Quick Stats",
+        "totalMenuItems": "Total Menu Items",
+        "activeReservations": "Active Reservations",
+        "totalUsers": "Total Users",
+        "nextHour": "Next Hour",
+        "today": "Today",
+        "tomorrow": "Tomorrow",
+        "thisMonth": "This Month",
+        "nextMonth": "Next Month",
+        "totalReservations": "Total Reservations",
+        "confirmedReservations": "Confirmed Reservations",
+        "upcomingReservations": "Upcoming Reservations",
+        "guests": "guests",
+        "pending": "Pending",
+        "confirmed": "Confirmed",
+        "cancelled": "Cancelled"
+    },
+    "ReservationsManagement": {
+        "reservationsManagement": "Reservations Management",
+        "name": "Name",
+        "date": "Date",
+        "time": "Time",
+        "guests": "Guests",
+        "status": "Status",
+        "actions": "Actions",
+        "confirm": "Confirm",
+        "cancel": "Cancel",
+        "view": "View",
+        "rowsPerPage": "Rows per page",
+        "page": "Page",
+        "of": "of",
+        "reservationDetails": "Reservation Details",
+        "guestInformation": "Guest Information",
+        "email": "Email",
+        "phone": "Phone",
+        "occasion": "Occasion",
+        "tablePreference": "Table Preference",
+        "additionalInformation": "Additional Information",
+        "dietaryRestrictions": "Dietary Restrictions",
+        "specialRequests": "Special Requests",
+        "createdAt": "Created At",
+        "title": "Reservations Management",
+        "searchPlaceholder": "Search reservations...",
+        "filterByStatus": "Filter by status",
+        "allStatuses": "All Statuses",
+        "pending": "Pending",
+        "confirmed": "Confirmed",
+        "cancelled": "Cancelled",
+        "loading": "Loading reservations...",
+        "noReservations": "No reservations found",
+        "viewDetails": "View Details",
+        "previous": "Previous",
+        "next": "Next"
+    },
+    "TestimonialsManagement": {
+        "title": "Testimonials Management",
+        "addTestimonial": "Add Testimonial",
+        "editTestimonial": "Edit Testimonial",
+        "edit": "Edit",
+        "delete": "Delete",
+        "customerName": "Customer Name",
+        "customerNamePlaceholder": "Enter customer name",
+        "customerTitle": "Customer Title",
+        "customerTitlePlaceholder": "Enter customer title",
+        "content": "Content",
+        "contentPlaceholder": "Enter testimonial content",
+        "save": "Save Changes",
+        "cancel": "Cancel",
+        "saving": "Saving...",
+        "fetchError": "Failed to fetch testimonial",
+        "updateSuccess": "Testimonial updated successfully",
+        "updateError": "Failed to update testimonial",
+        "deleteSelected": "Delete Selected",
+        "testimonialDeleted": "Testimonial deleted successfully",
+        "deleteError": "Failed to delete testimonial",
+        "statusUpdated": "Status updated successfully",
+        "status": "Status",
+        "actions": "Actions",
+        "loading": "Loading...",
+        "noTestimonials": "No testimonials found",
+        "searchPlaceholder": "Search testimonials...",
+        "previous": "Previous",
+        "next": "Next",
+        "page": "Page",
+        "of": "of",
+        "deleteConfirmation": "Delete Testimonial",
+        "deleteWarning": "Are you sure you want to delete this testimonial? This action cannot be undone.",
+        "bulkDeleteConfirmation": "Delete Selected Testimonials",
+        "bulkDeleteWarning": "Are you sure you want to delete {count} selected testimonials? This action cannot be undone."
+    },
+    "Dashboard": {
+        "title": "Dashboard",
+        "reservations": "Reservations",
+        "menu": "Menu",
+        "testimonials": "Testimonials",
+        "manageReservations": "View and manage all restaurant reservations",
+        "manageMenu": "Update menu items, categories, and prices",
+        "manageTestimonials": "Manage customer testimonials and reviews",
+        "testimonialsDesc": "Add, edit, and manage customer testimonials",
+        "access": "Access"
+    }
+}

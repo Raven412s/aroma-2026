@@ -1,0 +1,207 @@
+{
+    "HomePage": {
+        "HeroSection": {
+            "welcome": "مرحبًا بكم في",
+            "aroma": "أروما",
+            "indArab": "الهندية والعربية",
+            "restaurant": "مطعم"
+        },
+        "OurStory": {
+            "discover": "اكتشف",
+            "ourStory": "قصتنا",
+            "para1": "ساد بيرسبيشياتيس أوندي أومنيس إستي ناتوس إيرور سيت فولوبتاتيم أكوسانتيم دولوريمكو لودانتيم، توتام ريم أبيريام، إيكيا إيبسا كوي أب إيلو إينفينتور فيريتاتيس إت كواسي.",
+            "learnMore": "اعرف المزيد"
+        },
+        "LocationSection": {
+            "visitOur": "قم بزيارة",
+            "restaurant": "مطعمنا",
+            "para1": "ساد بيرسبيشياتيس أوندي أومنيس إستي ناتوس إيرور سيت فولوبتاتيم أكوسانتيم دولوريمكو لودانتيم، ريم أبيريام، إيكيا إيبسا كوي أب إيلو إينفينتور فيريتاتيس إت كواسي.",
+            "getLocations": "اعثر على المواقع"
+        },
+        "TestimonialSection": {
+            "customer": "آراء",
+            "testimonials": "العملاء"
+        }
+    },
+    "MenuPage": {
+        "checkOut": "تصفح",
+        "ourMenus": "قوائم الطعام"
+    },
+    "MenuSection": {
+        "discover": "اكتشف",
+        "menus": "القوائم",
+        "para1": "لوريم إيبسوم دولور سيت أميت كونسيكتيتور، أديبيسيسينغ إيليت. توتام، سوسيبيت فيتاي!",
+        "para2": "لوريم إيبسوم دولور سيت أميت كونسيكتيتور، أديبيسيسينغ إيليت. فولوبتاتي مايورس سيت دولوريبوس.",
+        "loadingMenu": "جارٍ تحميل القائمة",
+        "retry": "حاول مرة أخرى"
+    },
+    "Navbar": {
+        "home": "الرئيسية",
+        "menus": "القوائم",
+        "about": "من نحن",
+        "findUs": "موقعنا",
+        "orderNow": "اطلب الآن",
+        "reservation": "الحجز"
+    },
+    "Footer": {
+        "hours": "ساعات العمل",
+        "location": "الموقع",
+        "quickLinks": "روابط سريعة",
+        "workingHours": {
+            "weekdays": "الاثنين - الخميس: 11 صباحاً - 10 مساءً",
+            "weekend": "الجمعة - السبت: 11 صباحاً - 11 مساءً",
+            "sunday": "الأحد: 11 صباحاً - 9 مساءً"
+        },
+        "address": "ساحة الحرية، 10 شارع شالڤا دادياني، تبليسي، جورجيا",
+        "links": {
+            "menu": "القائمة",
+            "reservations": "الحجوزات",
+            "privateEvents": "المناسبات الخاصة",
+            "orderNow": "اطلب الآن",
+            "careers": "وظائف"
+        },
+        "tagline": "حيث يلتقي فن الطهي بالأناقة الخالدة.",
+        "copyright": "© {year} إبيكيوريان. جميع الحقوق محفوظة.",
+        "legal": {
+            "privacy": "سياسة الخصوصية",
+            "terms": "شروط الخدمة",
+            "accessibility": "إمكانية الوصول"
+        }
+    },
+    "AboutPage": {
+        "hero": {
+            "discover": "اكتشف",
+            "aboutUs": "من نحن"
+        },
+        "testimonial": {
+            "tagline": "تجربة طعام فريدة من نوعها",
+            "description": "واحدة من أكثر المطاعم إثارة التي افتتحت في سانت كيلدا منذ سنوات - هؤلاء الأشخاص لديهم سنوات من الخبرة وهذا واضح، من الديكور إلى طريقة التقديم - مثالي!",
+            "author": "جينيفر كارتر"
+        }
+    },
+    "MenuManagement": {
+        "menuManagement": "إدارة القائمة",
+        "addNewItem": "إضافة عنصر جديد",
+        "name": "الاسم",
+        "section": "القسم",
+        "price": "السعر",
+        "actions": "الإجراءات",
+        "deleteConfirmation": "تأكيد الحذف",
+        "deleteWarning": "هل أنت متأكد من حذف هذا العنصر من القائمة؟ لا يمكن التراجع عن هذا الإجراء.",
+        "cancel": "إلغاء",
+        "delete": "حذف",
+        "editMenuItem": "تعديل عنصر القائمة",
+        "description": "الوصف",
+        "imageUrl": "رابط الصورة",
+        "save": "حفظ",
+        "saving": "جاري الحفظ...",
+        "itemNotFound": "لم يتم العثور على عنصر القائمة",
+        "fetchError": "خطأ في جلب عنصر القائمة",
+        "updateSuccess": "تم تحديث عنصر القائمة بنجاح",
+        "updateError": "فشل في تحديث عنصر القائمة",
+        "rowsPerPage": "الصفوف في الصفحة",
+        "page": "الصفحة",
+        "of": "من",
+        "deleteSelected": "حذف المحدد",
+        "bulkDeleteConfirmation": "حذف العناصر المحددة",
+        "bulkDeleteWarning": "هل أنت متأكد من حذف {count} عنصر؟ لا يمكن التراجع عن هذا الإجراء."
+    },
+    "AdminDashboard": {
+        "dashboard": "لوحة التحكم",
+        "menuManagement": "إدارة القائمة",
+        "menuManagementDesc": "إضافة أو تعديل أو حذف العناصر والفئات",
+        "reservations": "الحجوزات",
+        "reservationsDesc": "عرض وإدارة حجوزات الطاولات",
+        "userManagement": "إدارة المستخدمين",
+        "userManagementDesc": "إدارة حسابات المستخدمين والصلاحيات",
+        "testimonials": "الشهادات",
+        "testimonialsDesc": "إضافة وتحرير وإدارة شهادات العملاء",
+        "settings": "الإعدادات",
+        "settingsDesc": "تكوين إعدادات المطعم",
+        "access": "الوصول",
+        "quickStats": "إحصائيات سريعة",
+        "totalMenuItems": "إجمالي عناصر القائمة",
+        "activeReservations": "الحجوزات النشطة",
+        "totalUsers": "إجمالي المستخدمين",
+        "nextHour": "الساعة القادمة",
+        "today": "اليوم",
+        "tomorrow": "غداً",
+        "thisMonth": "هذا الشهر",
+        "nextMonth": "الشهر القادم",
+        "totalReservations": "إجمالي الحجوزات",
+        "confirmedReservations": "الحجوزات المؤكدة",
+        "upcomingReservations": "الحجوزات القادمة",
+        "guests": "ضيوف",
+        "pending": "قيد الانتظار",
+        "confirmed": "مؤكد",
+        "cancelled": "ملغي"
+    },
+    "ReservationsManagement": {
+        "title": "إدارة الحجوزات",
+        "searchPlaceholder": "البحث في الحجوزات...",
+        "filterByStatus": "تصفية حسب الحالة",
+        "allStatuses": "جميع الحالات",
+        "pending": "قيد الانتظار",
+        "confirmed": "مؤكد",
+        "cancelled": "ملغي",
+        "loading": "جاري تحميل الحجوزات...",
+        "noReservations": "لم يتم العثور على حجوزات",
+        "guests": "ضيوف",
+        "viewDetails": "عرض التفاصيل",
+        "previous": "السابق",
+        "next": "التالي",
+        "page": "الصفحة",
+        "of": "من",
+        "reservationDetails": "تفاصيل الحجز",
+        "guestInformation": "معلومات الضيف",
+        "email": "البريد الإلكتروني",
+        "phone": "رقم الهاتف",
+        "occasion": "المناسبة",
+        "tablePreference": "تفضيل الطاولة",
+        "additionalInformation": "معلومات إضافية",
+        "dietaryRestrictions": "القيود الغذائية",
+        "specialRequests": "طلبات خاصة",
+        "createdAt": "تاريخ الإنشاء",
+        "status": "الحالة",
+        "date": "التاريخ",
+        "time": "الوقت",
+        "confirm": "تأكيد",
+        "cancel": "إلغاء"
+    },
+    "TestimonialsManagement": {
+        "title": "إدارة الشهادات",
+        "addTestimonial": "إضافة شهادة",
+        "editTestimonial": "تعديل الشهادة",
+        "edit": "تعديل",
+        "delete": "حذف",
+        "customerName": "اسم العميل",
+        "customerNamePlaceholder": "أدخل اسم العميل",
+        "customerTitle": "منصب العميل",
+        "customerTitlePlaceholder": "أدخل منصب العميل",
+        "content": "المحتوى",
+        "contentPlaceholder": "أدخل محتوى الشهادة",
+        "save": "حفظ التغييرات",
+        "cancel": "إلغاء",
+        "saving": "جاري الحفظ...",
+        "fetchError": "فشل في جلب الشهادة",
+        "updateSuccess": "تم تحديث الشهادة بنجاح",
+        "updateError": "فشل في تحديث الشهادة",
+        "deleteSelected": "حذف المحدد",
+        "testimonialDeleted": "تم حذف الشهادة بنجاح",
+        "deleteError": "فشل في حذف الشهادة",
+        "statusUpdated": "تم تحديث الحالة بنجاح",
+        "status": "الحالة",
+        "actions": "الإجراءات",
+        "loading": "جاري التحميل...",
+        "noTestimonials": "لم يتم العثور على شهادات",
+        "searchPlaceholder": "البحث في الشهادات...",
+        "previous": "السابق",
+        "next": "التالي",
+        "page": "الصفحة",
+        "of": "من",
+        "deleteConfirmation": "حذف الشهادة",
+        "deleteWarning": "هل أنت متأكد أنك تريد حذف هذه الشهادة؟ لا يمكن التراجع عن هذا الإجراء.",
+        "bulkDeleteConfirmation": "حذف الشهادات المحددة",
+        "bulkDeleteWarning": "هل أنت متأكد أنك تريد حذف {count} من الشهادات المحددة؟ لا يمكن التراجع عن هذا الإجراء."
+    }
+}
